@@ -2,15 +2,12 @@
   <div class="home">
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">MEVN Stack</h1>
-        <p
-          class="lead"
-        >Simple authentication application built with MEVN Stack using Express, Node.js, Vue.js and MongoDB by Codebook Inc.</p>
+        <h1 class="display-4">adriotdev Login app</h1>
       </div>
     </div>
     <div class="row">
       <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="card bg-dark text-white">
+        <div class="card bg-secondary text-white">
           <div class="card-body">
             <h5 class="card-title">Front-End</h5>
             <p
@@ -21,7 +18,7 @@
         </div>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="card bg-info text-white">
+        <div class="card bg-secondary text-white">
           <div class="card-body">
             <h5 class="card-title">Server-Side</h5>
             <p
@@ -32,13 +29,13 @@
         </div>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="card bg-danger text-white">
+        <div class="card bg-secondary text-white">
           <div class="card-body">
             <h5 class="card-title">Fullstack</h5>
             <p
               class="card-text"
             >development (a hybrid of both). Full stack can apply to a web stack, mobile stack, or a native application stack (i.e. software programs for specific devices)</p>
-            <a href="https://vuejs.org/" target="_blank" class="btn bg-white">More Info.</a>
+            <a href="https://learntocodewith.me/podcast/online-entrepreneur-to-fullstack-developer-with-anthony-delgado/" target="_blank" class="btn bg-white">More Info.</a>
           </div>
         </div>
       </div>
@@ -53,5 +50,7 @@ export default {
 };
 </script>
 <style scoped>
-
+.row {
+  justify-content: space-evenly;
+}
 </style>

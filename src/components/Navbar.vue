@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <router-link class="navbar-brand" to="/">adriot.dev</router-link> |
       <button
@@ -59,4 +59,5 @@ export default {
 .logout {
   cursor: pointer;
 }
+
 </style>

@@ -9,11 +9,5 @@ export default {
 </script>
 
 <style scoped>
-.alert {
-  border-radius: 0px;
-}
-.alert-danger {
-  background: red;
-  color: #fff;
-}
+
 </style>

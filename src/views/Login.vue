@@ -4,7 +4,7 @@
     <br />
     <div class="row">
       <div class="card mx-auto">
-        <div class="card-header text-white bg-primary">
+        <div class="card-header text-white bg-dark">
           <h4>Login</h4>
         </div>
         <div class="card-body">
@@ -27,7 +27,7 @@
                 class="form-control"
               />
             </div>
-            <input type="submit" class="btn btn-primary" value="Login"/>
+            <input type="submit" class="btn btn-secondary" value="Login"/>
             &nbsp;&nbsp;&nbsp;&nbsp;
             <router-link to="/register" class="card-link"
               >Need an account?</router-link
