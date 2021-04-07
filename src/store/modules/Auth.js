@@ -48,7 +48,7 @@ const actions = {
     async register({ commit }, userData) {
         commit('register_request');
         try {
-            const res = await axios.post('https://adriotdev-login-app.herokuapp.com//api/users/register', userData);
+            const res = await axios.post('https://adriotdev-login-app.herokuapp.com/api/users/register', userData);
             if (res.data.success !== undefined) {
                 commit('register_success');
             }
@@ -61,7 +61,7 @@ const actions = {
     //Get user Profile
     async getProfile({ commit }) {
         commit('profile_request')
-        const res = await axios.get('https://adriotdev-login-app.herokuapp.com//api/users/profile')
+        const res = await axios.get('https://adriotdev-login-app.herokuapp.com/api/users/profile')
         commit('user_profile', res.data.user)
         return res;
     },
